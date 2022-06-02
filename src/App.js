@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/BlockOne/Header/Header';
+// import logo from './logo.svg';
+// import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-     Hello World !!!
+        <div>
+          <Header/>
+        </div>      
     </div>
   );
 }
