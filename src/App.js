@@ -1,5 +1,7 @@
 import React from 'react';
-import Header from './components/BlockOne/Header/Header';
+import Header from './components/BlockFirst/Header/Header';
+import Footer from './components/BlockFooter/Footer/Footer';
+
 
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
         <div>
           <Header/>
+          <Footer/>
         </div>      
     </div>
   );

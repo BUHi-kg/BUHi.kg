@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderLeft from '../HeaderLeft/HeaderLeft'
 import HeaderImg from '../HeaderImg/HeaderImg'
 import HeaderRight from '../HeaderRight/HeaderRight'
+// import FormFSC from '../FormFSC/FormFSC'
 
 import LogoImg from '../../assets/Logo.png'
 import HeaderImage from '../../assets/MainImg.png'
@@ -27,6 +28,7 @@ export default function () {
           circleImg={TwoCirclesImg}
           />
       </dev>
+      {/* <FormFSC/> */}
     </div>
   )
 }
