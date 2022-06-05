@@ -8,6 +8,8 @@ import instagram from '../../assets/Instagram.png'
 import telegram from '../../assets/Telegram.png'
 import './Footer.css'
 
+
+
 export default function Footer({linkServices, linkTariffs, linkHowItWorks, linkFAQ}) {
   return (
     <div className='footerConteiner'>
@@ -22,16 +24,16 @@ export default function Footer({linkServices, linkTariffs, linkHowItWorks, linkF
             
             <div>
             <ul class="navbar-footer">
-                    <li class="navItemOne"><a class="nav-linkF js-scroll-trigger" href={linkServices} >
+                    <li className="navItemOne"><a className="nav-linkF js-scroll-trigger" href={linkServices} >
                         Услуги
                     </a></li>
-                    <li class="navItemTwo"><a class="nav-linkF js-scroll-trigger" href={linkTariffs}>
+                    <li className="navItemTwo"><a className="nav-linkF js-scroll-trigger" href={linkTariffs}>
                         Тарифы
                     </a></li>
-                    <li class="navItemThree"><a class="nav-linkF js-scroll-trigger" href={linkHowItWorks}>
+                    <li className="navItemThree"><a className="nav-linkF js-scroll-trigger" href={linkHowItWorks}>
                         Как это работает?
                     </a></li>
-                    <li class="navItemFour"><a class="nav-linkF js-scroll-trigger" href={linkFAQ}>
+                    <li className="navItemFour"><a className="nav-linkF js-scroll-trigger" href={linkFAQ}>
                         FAQ
                     </a></li>
                 </ul>

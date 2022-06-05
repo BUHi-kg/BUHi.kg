@@ -22,12 +22,12 @@ export default function () {
             imgRightHeader={HeaderImage}/>
       </div>
 
-      <dev className='imgHeader'>
+      <div className='imgHeader'>
           <HeaderImg
           triggerLineImg={TriggerLine}
           circleImg={TwoCirclesImg}
           />
-      </dev>
+      </div>
       {/* <FormFSC/> */}
     </div>
   )

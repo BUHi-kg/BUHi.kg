@@ -2,6 +2,7 @@
 import React from 'react'
 import './HeaderRight.css'
 
+
 export default function HeaderRight({
   linkServices,
   linkTariffs,
@@ -13,13 +14,13 @@ export default function HeaderRight({
         <div className='topNavigationContainer'>
 
               <ul class="navbar-nav">
-                  <li class="navItemOne"><a class="nav-link js-scroll-trigger" href={linkServices} >
+                  <li className="navItemOne"><a className="nav-link js-scroll-trigger" href={linkServices} >
                     Услуги
                   </a></li>
-                  <li class="navItemTwo"><a class="nav-link js-scroll-trigger" href={linkTariffs}>
+                  <li className="navItemTwo"><a className="nav-link js-scroll-trigger" href={linkTariffs}>
                     Тарифы
                   </a></li>
-                  <li class="navItemThree"><a class="nav-link js-scroll-trigger" href={linkHowItWorks}>
+                  <li className="navItemThree"><a className="nav-link js-scroll-trigger" href={linkHowItWorks}>
                     Как это работает?
                   </a></li>
               </ul>
