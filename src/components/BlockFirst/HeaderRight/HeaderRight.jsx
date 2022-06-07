@@ -13,7 +13,7 @@ export default function HeaderRight({
     <div className='rightHeaderContainer'>
         <div className='topNavigationContainer'>
 
-              <ul class="navbar-nav">
+              <ul className="navbar-nav">
                   <li className="navItemOne"><a className="nav-link js-scroll-trigger" href={linkServices} >
                     Услуги
                   </a></li>

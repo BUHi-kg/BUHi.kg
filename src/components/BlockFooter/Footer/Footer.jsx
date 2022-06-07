@@ -23,7 +23,7 @@ export default function Footer({linkServices, linkTariffs, linkHowItWorks, linkF
             </div>
             
             <div>
-            <ul class="navbar-footer">
+            <ul className="navbar-footer">
                     <li className="navItemOne"><a className="nav-linkF js-scroll-trigger" href={linkServices} >
                         Услуги
                     </a></li>
