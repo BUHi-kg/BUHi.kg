@@ -1,10 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/BlockFirst/Header/Header';
+import Footer from './components/BlockFooter/Footer/Footer';
+import FormFSC from './components/BlockFirst/FormFSC/FormFSC'
+
+
 
 function App() {
   return (
     <div className="App">
-     AAAAAAAAAAAAAA
+        <div>
+          <Header/>
+          <Footer/>
+          <FormFSC/>
+        </div>      
     </div>
   );
 }
