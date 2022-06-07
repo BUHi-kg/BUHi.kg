@@ -1,0 +1,113 @@
+.footerConteiner{
+    width: 1440px;
+    height: 479px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #48339D;
+}
+
+.topOfFooter{
+    width: 1440px;
+    height: 290px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.logoFooter{
+    margin: 0;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: column;
+    width: 253px;
+    height: 239px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+       .footerLogoh4{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FFFFFF;
+        }
+
+            .footerLogoBtn{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 32px;
+                gap: 10px;
+                background: linear-gradient(135deg, #99FA04 0%, #22B7A0 100%);
+                border: 1px solid #99FA04;
+                border-radius: 20px;
+            }
+
+             .footerLogoBtn:active{
+                    background: none;
+                    border: 1px solid  #99FA04;
+                }
+
+.navbar-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 205px;
+    height: 150px; 
+    margin-top: 30px;
+}
+
+        .nav-linkF{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+.footerContacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 124px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+        .contscts{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            color: #FFFFFF;
+            margin: 0;
+        }
+
+.messengersContainer{
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.h6Footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
