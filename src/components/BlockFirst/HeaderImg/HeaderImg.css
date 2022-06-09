@@ -1,0 +1,15 @@
+.triggerLine{
+    position: absolute;
+    margin-top: -230px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.circleImg{
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 644px;
+    top: 455px;
+}
