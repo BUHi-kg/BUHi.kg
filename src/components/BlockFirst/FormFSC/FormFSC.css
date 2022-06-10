@@ -37,7 +37,7 @@ h5{
     color: #1E0196;
 }
 
-button{
+.btnFSC{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -56,6 +56,10 @@ button{
     border-radius: 20px;
 }
 
+     .btnFSC:active{
+         background: none;
+     }
+
 input{
     display: flex;
     flex-direction: row;
@@ -66,3 +70,19 @@ input{
     filter: drop-shadow(0px 1px 2px rgba(119, 87, 249, 0.2));
     border-radius: 10px;
 }
+
+/* .formFSC-antd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+
+    width: 500px;
+    height: 260px;
+  
+}
+
+
+.btnFSC{
+
+} */
