@@ -8,6 +8,7 @@ import HowItWorks from './components/HowItWorks/HowItWorks';
 import Questions from './components/Questions/Questions';
 import Tariffs from './components/Tariffs/Tariffs';
 import FormInput from './components/BlockFirst/FormFSC/FormInput/FormInput';
+import Thankpage from './components/thankpage/Thankpage';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
           <Questions/>
           
           <Footer/>
-          <FormInput/>     
+          <FormInput/>   
+          <Thankpage/>
     </div>
   );
 }
