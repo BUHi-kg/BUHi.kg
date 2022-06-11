@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BsTelephone } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import { MdOutlineLocationOn } from 'react-icons/md'
@@ -7,10 +7,23 @@ import whatsApp from '../../assets/whatsapp.png'
 import instagram from '../../assets/Instagram.png'
 import telegram from '../../assets/Telegram.png'
 import './Footer.css'
+import Modal from './../../Modal/Modal';
+import FormFSC from './../../BlockFirst/FormFSC/FormFSC';
 
 
 
 export default function Footer({linkServices, linkTariffs, linkHowItWorks, linkFAQ}) {
+
+    const [isFormFSC, setFormFSC] = useState(false);
+
+    const openFormFSC = () =>{
+      setFormFSC(true)
+    }
+  
+    const closeFormFSC =() =>{
+      setFormFSC(false)
+    }
+
   return (
     <div className='footerConteiner'>
 
@@ -19,7 +32,7 @@ export default function Footer({linkServices, linkTariffs, linkHowItWorks, linkF
             <div className='footerLogo'>
                 <img src={logoFooter} alt={logoFooter} className="logoFooter"/>
                 <h4 className='footerLogoh4'>Бухгалтерия - это просто, потому что есть Buhi</h4>
-                <button type="button" className='footerLogoBtn'>Оставить заявку</button>
+                <button type="button" className='footerLogoBtn'  onClick={openFormFSC}>Оставить заявку</button>
             </div>
             
             <div>
@@ -55,7 +68,11 @@ export default function Footer({linkServices, linkTariffs, linkHowItWorks, linkF
 
         <h6 className='h6Footer'>2022 © Все права защищены</h6>
 
-
+        {isFormFSC && (
+        <Modal close={closeFormFSC}>
+          <FormFSC/>
+        </Modal>
+      )}
     </div>
   )
 }

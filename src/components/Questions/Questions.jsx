@@ -3,6 +3,9 @@ import './Questions.css';
 import { Form, Input, Button } from 'antd';
 import leftHalfCircle from '../../images/lefthalfCircle.png';
 import cubes from '../../images/Cubes.png'
+import Modal from './../Modal/Modal';
+import FormFSC from '../BlockFirst/FormFSC/FormFSC';
+
 
 function Questions() {
 
@@ -94,4 +97,4 @@ function Questions() {
   )
 }
 
-export default Questions
+export default Questions;

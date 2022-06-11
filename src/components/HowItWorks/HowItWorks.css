@@ -19,7 +19,7 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
-    z-index: 2;
+    /* z-index: 2; */
 }
 .howitworks_grid {
     display: grid;

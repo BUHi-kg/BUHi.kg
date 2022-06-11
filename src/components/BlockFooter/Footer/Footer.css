@@ -44,6 +44,8 @@
                 line-height: 28px;
                 color: #FFFFFF;
 
+                width: 255px;
+                height: 60px;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;

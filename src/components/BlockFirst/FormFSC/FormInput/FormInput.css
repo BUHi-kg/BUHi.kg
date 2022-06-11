@@ -1,0 +1,19 @@
+
+.forminput{
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputRequest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 400px;
+    
+}
