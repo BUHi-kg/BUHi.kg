@@ -1,0 +1,74 @@
+.MenuAccountantContainer{
+    background: #7757F9;
+    width: 1440px;
+    height: 1121px; 
+}
+
+.forBlocksContainer{
+    width: 1440px;
+    height: 1121px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding: 70px;
+    padding-top: 40px;
+}
+
+.menu-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.menu-link:hover{
+    color: #72D891;
+}
+
+.logoMenuAc{
+    width: 128px;
+    height: 40px;
+}
+
+.circleMenuAc{
+    width: 250px;
+    height: 250px;
+}
+
+.menuItemOne{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.menuItemTwo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.menuItemThree{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.menuItemFour{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.menuItemFive{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.linImg{
+    padding-right: 10px;
+}
+
